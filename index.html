@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>سياسة الخصوصية - تطبيق زاد الذاكرين (Privacy Policy - Zad Al-Dhakireen)</title>
+    <style>
+        :root {
+            --bg-dark: #071A12;
+            --card-bg: #0F291E;
+            --gold: #D4AF37;
+            --gold-light: #F3E5AB;
+            --text: #F7F4EB;
+            --muted: #C2D1C8;
+        }
+        * { box-sizing: border-box; font-family: "Segoe UI", Tahoma, Arial, sans-serif; }
+        body {
+            margin: 0;
+            padding: 32px 16px;
+            background: radial-gradient(circle at top, #123828 0%, #071A12 75%);
+            color: var(--text);
+            line-height: 1.85;
+        }
+        .container {
+            max-width: 820px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border: 1px solid rgba(212, 175, 55, 0.45);
+            border-radius: 24px;
+            padding: 32px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.45);
+        }
+        .badge {
+            display: inline-block;
+            background: rgba(212, 175, 55, 0.16);
+            color: var(--gold-light);
+            border: 1px solid var(--gold);
+            padding: 5px 14px;
+            border-radius: 999px;
+            font-size: 13px;
+            margin-bottom: 10px;
+        }
+        h1 { color: var(--gold-light); margin-top: 0; font-size: 26px; }
+        h2 { color: var(--gold); font-size: 19px; margin-top: 24px; border-bottom: 1px solid rgba(212, 175, 55, 0.25); padding-bottom: 6px; }
+        p, li { color: var(--muted); font-size: 15px; }
+        .en-section {
+            direction: ltr;
+            text-align: left;
+            margin-top: 36px;
+            padding-top: 24px;
+            border-top: 2px dashed rgba(212, 175, 55, 0.35);
+        }
+        code {
+            background: rgba(0,0,0,0.3);
+            padding: 2px 6px;
+            border-radius: 6px;
+            color: var(--gold-light);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="badge">🕌 وثيقة رسمية متوافقة مع متجر Google Play</span>
+        <h1>سياسة الخصوصية وحماية البيانات — تطبيق «زاد الذاكرين»</h1>
+        <p><strong>تاريخ السريان والتحديث الأخير:</strong> 26 أكتوبر 2026 | <strong>معرّف الحزمة:</strong> <code>com.aistudio.zadaldhakireen.azkar</code></p>
+
+        <h2>1. مقدمة والتزام الخصوصية</h2>
+        <p>
+            مرحباً بكم في تطبيق <strong>«زاد الذاكرين» (Zad Al-Dhakireen)</strong> للورد اليومي والأذكار والمسبحة الإلكترونية الذكية. نحن نولي خصوصية المستخدمين وأمان بياناتهم أهمية قصوى، وتوضح وثيقة سياسة الخصوصية هذه أنواع البيانات التي يتعامل معها التطبيق وكيفية حمايتها واستخدامها بما يتوافق تماماً مع سياسات برنامج مطوري Google Play.
+        </p>
+
+        <h2>2. البيانات التي يجمعها التطبيق والغرض منها</h2>
+        <ul>
+            <li><strong>بيانات الحساب والمصادقة (Google Sign-In &amp; Firebase Authentication):</strong> عند اختيار تسجيل الدخول باستخدام حساب Google، يحصل التطبيق على المعرّف الفريد للحساب (UID)، الاسم الظاهر (Display Name)، وعنوان البريد الإلكتروني بهدف مزامنة تقدمك في الأوراد والتسبيحات عبر سحابة Firebase Cloud Firestore.</li>
+            <li><strong>بيانات النشاط والأذكار المخصصة (Firebase Cloud Firestore &amp; Local Room Database):</strong> يتم حفظ عدد التسبيحات، الأوراد المكتملة يومياً، والأذكار أو الأدعية المخصصة التي يضيفها المستخدم داخل قاعدة بيانات مشفرة ومعزولة لكل مستخدم بحيث لا يمكن لأي طرف آخر الوصول إليها.</li>
+            <li><strong>الموقع الجغرافي الدقيق والتقريبي (Location Permissions — <code>ACCESS_FINE_LOCATION</code> / <code>ACCESS_COARSE_LOCATION</code>):</strong> يطلب التطبيق إذن الموقع الجغرافي (اختيارياً وعند الطلب فقط) لغرض وحيد هو <strong>حساب مواقيت الصلوات الخمس فلكياً بدقة</strong> حسب إحداثيات منطقتك أو محافظتك. يتم حساب المواقيت محلياً داخل الجهاز، ولا يتم تتبع موقعك في الخلفية أو مشاركة إحداثياتك مع أي جهات إعلانية أو أطراف ثالثة.</li>
+            <li><strong>إذن الإشعارات (Notifications — <code>POST_NOTIFICATIONS</code>):</strong> يُستخدم لعرض تذكيرات الأذكار المتجددة الدورية على شاشة الهاتف حسب الفترة الزمنية التي يحددها المستخدم، ويمكن إيقافها في أي وقت.</li>
+        </ul>
+
+        <h2>3. مشاركة البيانات مع الأطراف الثالثة</h2>
+        <p>
+            لا يقوم تطبيق «زاد الذاكرين» ببيع أو تأجير أو المتاجرة بأي بيانات شخصية للمستخدمين تحت أي ظرف. يعتمد التطبيق فقط على خدمات البنية التحتية الموثوقة من Google (<strong>Google Play Services</strong> و<strong>Firebase Authentication / Cloud Firestore</strong>) لتوفير خدمة تسجيل الدخول والمزامنة السحابية الآمنة.
+        </p>
+
+        <h2>4. أمن البيانات وحقوق المستخدم وحذف البيانات</h2>
+        <ul>
+            <li>تُنقل جميع البيانات المزامنة سحابياً عبر اتصال مشفر (HTTPS / TLS) وتخضع لقواعد أمان صارمة (Zero-Trust Security Rules) تضمن أن كل مستخدم يقرأ ويكتب بياناته الخاصة فقط.</li>
+            <li>يحق للمستخدم في أي وقت: تصفير سجل الإحصائيات، حذف أي ذكر مخصص قام بإضافته، تعديل ملفه الشخصي، أو تسجيل الخروج الكامل من الحساب عبر شاشة الملف الشخصي أو الإعدادات.</li>
+        </ul>
+
+        <h2>5. التواصل معنا</h2>
+        <p>لأي استفسارات تتعلق بسياسة الخصوصية أو طلبات حذف البيانات، يمكنكم التواصل عبر البريد الإلكتروني الخاص بالمطور المسجل في صفحة التطبيق على متجر Google Play.</p>
+
+        <!-- English Version for Google Play Global Review -->
+        <div class="en-section" lang="en">
+            <span class="badge">🌐 English Version (For Google Play Review)</span>
+            <h1>Privacy Policy — Zad Al-Dhakireen (زاد الذاكرين)</h1>
+            <p><strong>Effective Date:</strong> October 26, 2026 | <strong>Package Name:</strong> <code>com.aistudio.zadaldhakireen.azkar</code></p>
+
+            <h2>1. Overview</h2>
+            <p>
+                <strong>Zad Al-Dhakireen</strong> ("the App") is an Islamic daily Adhkar, Wird, and electronic Tasbih application. We are committed to protecting user privacy in full compliance with Google Play Developer Program Policies. We do not sell, rent, or share personal data with third-party advertisers.
+            </p>
+
+            <h2>2. Information We Access &amp; How It Is Used</h2>
+            <ul>
+                <li><strong>Authentication &amp; Cloud Sync (Google Sign-In / Firebase Auth &amp; Firestore):</strong> We use Google Sign-In via Android Credential Manager and Firebase Authentication to authenticate users and sync their personal Tasbih counts, daily Wird progress, and custom Adhkar in isolated per-user documents on Firebase Cloud Firestore.</li>
+                <li><strong>Location Permission (<code>ACCESS_FINE_LOCATION</code> / <code>ACCESS_COARSE_LOCATION</code>):</strong> Location access is requested solely to calculate accurate local Islamic Prayer Times (Fajr, Dhuhr, Asr, Maghrib, Isha) based on the user's geographic coordinates. Astronomical prayer time calculations run locally on the device. Location data is never tracked in the background or shared with third parties.</li>
+                <li><strong>Notifications (<code>POST_NOTIFICATIONS</code>):</strong> Used only to display periodic rotating Dhikr reminders at user-configured intervals.</li>
+            </ul>
+
+            <h2>3. Data Security, Retention &amp; Deletion</h2>
+            <p>
+                All cloud-synced data is encrypted in transit via HTTPS/TLS and protected by strict Firebase Firestore Security Rules (`request.auth.uid == userId`). Users can reset their statistics, delete custom Adhkar, or sign out at any time directly within the App.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
